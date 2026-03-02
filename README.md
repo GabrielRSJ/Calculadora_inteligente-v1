@@ -6,7 +6,12 @@
 
 ## 📋 Sobre o Projeto
 
-Calculadora desenvolvida em Python durante meus estudos de lógica de programação. O projeto vai além de uma calculadora comum, oferecendo 11 funcionalidades diferentes e tratamento de erros para garantir uma boa experiência do usuário.
+Calculadora desenvolvida em Python durante meus estudos de lógica de programação. O projeto vai além de uma calculadora comum, oferecendo 11 funcionalidades sendo uma de media escolar diferentes e tratamento de erros para garantir uma boa experiência do usuário, a calculadora serve para acelerar contas basicas ou definição de medias de notas.
+
+## 🧠 Desafios que enfrentei
+
+- **Divisão por zero:** Tive que pensar em como os programa agiria ao inves de apenas quebrar
+- **Tratamento de erros:** Aprendi na prática como evitar que o usuário derrube o programa pensando em soluções para possiveis respostas erradas
 
 ## 🚀 Funcionalidades
 
@@ -37,7 +42,6 @@ Calculadora desenvolvida em Python durante meus estudos de lógica de programaç
 - ✅ Manipulação de variáveis e tipos
 - ✅ Tratamento de erros básico
 - ✅ Importação e uso de módulos
-- ✅ Validação de entrada do usuário
 - ✅ Organização de código limpo
 
 ## 🔍 Destaques do Código
@@ -51,7 +55,7 @@ Calculadora desenvolvida em Python durante meus estudos de lógica de programaç
         if numero != 0:
             break'''
 
-Impede divisão por zero solicitando um novo número
+Impede divisão por zero solicitando um novo número, a solicitação vai repetir até o numero valido ser digitado
 
 📦 Como executar
 Certifique-se de ter o Python instalado
@@ -70,7 +74,7 @@ python calculadora.py
     [  1 ] media escolar
     [  2 ] soma
     [  3 ] subtração
-    [  4 ] mutiplicação
+    [  4 ] multiplicação
     [  5 ] divisão
     [  6 ] radiciação/raiz quadrada
     [  7 ] potencia
@@ -83,18 +87,18 @@ digite sua opcao: 8
 Digite o numero que você quer fatorar: 5
 5 x 4 x 3 x 2 x 1 = 120
 
-🔮 Próximas Melhorias (To-Do)
-Adicionar validação para raiz de número negativo
+🔮 Próximas Melhorias (To-Do)🛠️
+-[ ]Adicionar validação para raiz de número negativo
 
-Adicionar validação para fatorial de número negativo
+-[ ]Adicionar validação para fatorial de número negativo
 
-Implementar histórico das últimas operações
+-[ ]Implementar histórico das últimas operações
 
-Criar opção para limpar a tela
+-[ ]Criar opção para limpar a tela
 
-Salvar operações em arquivo .txt
+-[ ]Salvar operações em arquivo .txt
 
-Refatorar código usando funções
+-[ ]Refatorar código usando funções
 
 📫 Contato
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GabrielRSJ)
