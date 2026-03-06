@@ -96,6 +96,11 @@ while True:
     #Sistema de radiciação
     elif menu == 6:
         n = float(input('qual numero você quer saber a raiz: '))
+        while True:
+            if n <= 0:
+                n = float(input('qual numero você quer saber a raiz: '))
+            else:
+                break
         print(f'A raiz de {n} é {math.sqrt(n):.2f}')
         sleep(2)
 
@@ -110,6 +115,11 @@ while True:
     #Sistema de fatorar
     elif menu == 8:
         n = int(input('Digite o numero que você quer fatorar: '))
+        while True:
+            if n <= 0:
+                n = float(input('Digite o numero que você quer fatorar: '))
+            else:
+                break
         for c in range(n, 0, -1):
             print(f'{c} ', end = '')
             if c == 1:
