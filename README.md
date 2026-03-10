@@ -100,5 +100,7 @@ Digite o numero que você quer fatorar: 5
 
 -[ ]Refatorar código usando funções
 
+-[ ]Usar flask 
+
 📫 Contato
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GabrielRSJ)
